@@ -1,0 +1,5 @@
+cron:
+- description: Push a "tick" onto pubsub every hour
+  url: us-central1-fir-demo-59b93.cloudfunctions.net/cron/trigger_tick
+  schedule: every 5 minutes
+  target: 

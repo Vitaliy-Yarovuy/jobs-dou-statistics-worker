@@ -1,0 +1,34 @@
+{
+  "name": "jobs-dou-statistics-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:web": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitaliy-Yarovuy/jobs-dou-statistics-worker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vitaliy-Yarovuy/jobs-dou-statistics-worker/issues"
+  },
+  "homepage": "https://github.com/Vitaliy-Yarovuy/jobs-dou-statistics-worker#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "jobs-dou-statistics-scrapper": "https://github.com/Vitaliy-Yarovuy/jobs-dou-statistics-scrapper.git",
+    "promisify-es6": "^1.0.3"
+  },
+  "devDependencies": {
+    "@firebase/app": "^0.1.10",
+    "@firebase/auth": "^0.3.4",
+    "@firebase/firestore": "^0.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "promise-async": "^0.2.0",
+    "webpack": "^3.11.0"
+  }
+}

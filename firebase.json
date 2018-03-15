@@ -5,8 +5,9 @@
   },
   "functions": {
     "predeploy": [
-      "npm --prefix ./functions run lint"
-    ]
+      "npm --prefix ./functions/ run lint"
+    ],
+    "source": "functions"
   },
   "hosting": {
     "public": "public",
@@ -17,8 +18,7 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "**", "function": "app"
       }
     ]
   },
